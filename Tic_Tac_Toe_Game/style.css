@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://wallpaperaccess.com/full/1713248.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left-top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: slidefromLtoR 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slidefromLtoR {
+
+    0%{
+        opacity: 0;
+        transform : translateX(-100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform : translateX(0);
+    }
+    
+}
+
+.X{
+    color: #ffbd00;
+    text-shadow: 3px 3px 5px black;
+    animation: totop 1.25s ease-out forwards;
+}
+
+@keyframes totop {
+
+    0%{
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+.O{
+    color: #ff5400;
+    text-shadow: 3px 3px 5px black;
+    animation: tobottom 1.25s ease-out backwards;
+}
+
+@keyframes tobottom {
+
+    0%{
+        opacity: 0;
+        transform: translateY(200%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+.XO{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 7.5rem;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.title{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 12rem;
+    text-align:center;
+    text-shadow: 3px 3px 6px black;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+button{
+    border: none;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+.box{
+    color: white;
+    height: 150px;
+    width: 150px;
+    font-size: 3.5rem;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.304);
+    font-size: 4.7rem;
+}
+
+.reset , .new{
+    font-size: 1.6rem;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 8px;
+    background-color:#b921ff00;
+    color:white;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+.reset:hover{
+    box-shadow: 0px 0px 9px rgb(255, 255, 255);  
+    text-shadow: 0px 0px 3px white;
+}
+
+.new:hover{
+    box-shadow: 0px 0px 9px rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px white;
+}
+
+.textX{
+    color: #ffbb00;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.textO{
+    color: #ff5400;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.hide{
+    display: none;
+}
+
+.nothide{
+    display: block;
+}
+
+h1{
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px black;
+    font-size: 2rem;
+}
