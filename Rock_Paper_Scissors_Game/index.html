@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://trefoilkingdom.com/uploads/games/11149/Rock-Paper-Scissors-2.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Borel&family=Carter+One&family=Luckiest+Guy&family=Original+Surfer&family=Press+Start+2P&family=Shojumaru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Borel&family=Carter+One&family=Luckiest+Guy&family=Original+Surfer&family=Press+Start+2P&family=Ramabhadra&family=Shojumaru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Borel&family=Carter+One&family=Luckiest+Guy&family=Original+Surfer&family=Press+Start+2P&family=Ramabhadra&family=Shojumaru&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Borel&family=Carter+One&family=Luckiest+Guy&family=Original+Surfer&family=Press+Start+2P&family=Ramabhadra&family=Send+Flowers&family=Shojumaru&family=Vast+Shadow&display=swap" rel="stylesheet">
+</head>
+<body class="flex">
+
+    <div class="navbar flex">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+
+    <div class="choices flex">
+        <div class="choice flex" id="rock">
+            <img src="/Images/rock.png" />
+        </div>
+        <div class="choice flex" id="paper">
+            <img src="/Images/paper.png" />
+        </div>
+        <div class="choice flex" id="scissors">
+            <img src="/Images/scissors.png" />
+        </div>
+    </div>
+
+    <div class="score-board flex">
+        <div class="score flex">
+            <p id="user-score" class="flex">0</p>
+            <p class="name flex">You</p>
+        </div>
+        <div class="score flex">
+            <p id="comp-score" class="flex">0</p>
+            <p class="name flex">Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-container flex">
+        <p id="msg" class="draw">Play your move</p>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
