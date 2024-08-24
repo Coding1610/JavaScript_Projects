@@ -65,6 +65,7 @@ async function fetchQuestion(){
             optionC.setAttribute('style','display:none;');
             optionD.setAttribute('style','display:none;');
         }
+        
         else{
             optionC.setAttribute('style','display:block;');
             optionD.setAttribute('style','display:block;');
