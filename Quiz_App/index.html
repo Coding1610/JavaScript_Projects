@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz App </title>
+    <link rel="shortcut icon" href="./quiz_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="mainContainer">
+
+        <div class="startQuiz" id="start">
+            <p> Rule : Make sure you click Next Button after select your answer.</p>
+            <button class="btn"> Start Quiz </button>
+        </div>
+
+        <div class="title" id="displayNoneTitle">
+            <h1 class="quizTitle"> Simple Quiz </h1>
+        </div>
+
+
+        <div class="quizConatiner" id="mainBox">
+            <p class="quizQuestion" id="ques"> Fetching Questions...</p>
+            <div class="optionsContainer" id="displayNoneBox">
+                <button class="quizOption" id="a">NULL</button>
+                <button class="quizOption" id="b">NULL</button>
+                <button class="quizOption" id="c">NULL</button>
+                <button class="quizOption" id="d">NULL</button>
+            </div>
+
+            <div class="answerDiv" id="ansDiv">
+                <p class="correctOptionPara" id="answerPara"></p>
+                <p class="incorrectOptionPara" id="incorrectPara"></p>
+            </div>
+
+            <div class="quizBtns">
+                <button class="btn" id="finishQuiz"> Finish Quiz </button>
+                <button class="btn" id="nextQues"> Next </button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
