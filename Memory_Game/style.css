@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    width: 100vw;
+    background: #6563ff;
+}
+
+.wrapper{
+    height: 400px;
+    width: 400px;
+    background-color: #ededed6c;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 25px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.cards, .card, .view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card{
+    cursor: pointer;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    height: calc(100% / 4 - 13px);
+    width: calc(100% / 4 - 13px);
+}
+
+.card.shake{
+    animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+    
+    0%,100%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-13px);
+    }
+    40%{
+        transform: translateX(13px);
+    }
+    60%{
+        transform: translateX(-8px);
+    }
+    80%{
+        transform: translateX(8px);
+    }
+    
+}
+.cards .card .view{
+    background-color: #fffffff8;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.25s linear;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card .frontView span{
+    color: #6563ff;
+    font-size: 40px;
+}
+
+.card .backView{
+    transform: rotateY(-180deg);
+}
+
+.card .backView img{
+    max-width: 45px;
+}
+
+.card.flip .frontView{
+    transform: rotateY(180deg);
+}
+
+.card.flip .backView{
+    transform: rotateY(0);
+}
+
+@media (max-width:400px) {
+    
+    .wrapper{
+        width: 350px;
+        height: 350px;
+    }
+
+    .card .backView img{
+        max-width: 35px;
+    }
+
+}
+
+@media (max-width:350px) {
+    
+    .wrapper{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card .backView img{
+        max-width: 35px;
+    }
+
+    .cards .card{
+        height: calc(100% / 4 - 10px);
+        width: calc(100% / 4 - 10px);
+    }
+
+    .wrapper{
+        padding: 20px;
+    }
+
+    .card .frontView span{
+        font-size: 30px;
+    }
+
+}
