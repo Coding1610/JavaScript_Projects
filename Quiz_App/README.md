@@ -21,8 +21,7 @@ The Quiz App is a responsive web application built using HTML, CSS, and JavaScri
 ### Prerequisites
 - A modern web browser to run the application.
 
-### Steps to Run the Project
-1. Clone the repository:
+### Clone The Repository
    ```bash
    git clone https://github.com/Coding1610/JavaScript_Projects/Quiz_App.git
    ```
