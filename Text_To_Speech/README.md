@@ -1,4 +1,4 @@
-# Text to Speech Project
+# Text to Speech 
 
 The Text to Speech project is a web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface for desktop users, allowing them to input text, including emojis, and have the device read it aloud in multiple languages.
 
