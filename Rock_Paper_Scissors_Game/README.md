@@ -1,4 +1,4 @@
-# Stone Paper Scissors Game
+# Stone Paper Scissors 
 
 The Stone Paper Scissors Game is a desktop-friendly web application built using HTML, CSS, and JavaScript. Users can play against the computer by selecting their move, while the computer randomly generates its choice. The results of each round are displayed below the game area.
 
