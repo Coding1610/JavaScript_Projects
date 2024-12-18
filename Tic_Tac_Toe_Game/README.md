@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+# Tic Tac Toe
 
 The Tic Tac Toe Game is a web application built using HTML, CSS, and JavaScript. This classic game allows two users to play on the same device, taking turns to mark their moves on a 3x3 grid. It is designed for desktop use and provides a simple, intuitive interface for an enjoyable gaming experience.
 
