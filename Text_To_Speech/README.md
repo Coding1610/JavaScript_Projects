@@ -30,5 +30,5 @@ The Text to Speech project is a web application built using HTML, CSS, and JavaS
    ```
 ### Live Website
    ```bash
-   https://fanciful-longma-dbc21f.netlify.app/
+   https://java-script-projects-text-to-speech.vercel.app/
    ```
