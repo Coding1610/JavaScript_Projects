@@ -27,5 +27,5 @@ The Stone Paper Scissors Game is a desktop-friendly web application built using 
    ```
 ### Live Website
    ```bash
-   https://676069503109611d9e272f80--sparkling-fudge-57471e.netlify.app/
+   https://java-script-projects-rock-paper-scissor.vercel.app/
    ```
