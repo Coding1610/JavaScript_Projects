@@ -31,5 +31,5 @@ JARVIS is a desktop-based virtual assistant built using HTML, CSS, and JavaScrip
    ```
 ### Live Website
   ```bash
-  https://676067190020191a73c02c61--glittering-sable-5d3023.netlify.app/
+  https://java-script-projects-jarvis.vercel.app/
   ```
