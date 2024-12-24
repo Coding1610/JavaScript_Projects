@@ -27,5 +27,5 @@ The Quiz App is a responsive web application built using HTML, CSS, and JavaScri
    ```
 ### Live Website
    ```bash
-   https://676066d98ffb23199b0c7ae1--rainbow-beignet-c999b3.netlify.app/
+   https://java-script-projects-quiz-app.vercel.app/
    ```
