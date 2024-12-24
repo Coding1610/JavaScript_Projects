@@ -31,5 +31,5 @@ The Currency Converter is a web application built using HTML, CSS, and JavaScrip
    ```
 ### Live Website
    ```bash
-   https://extraordinary-gecko-1abf9e.netlify.app
+   https://java-script-projects-currency-converter.vercel.app/
    ```
