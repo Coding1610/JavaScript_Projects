@@ -24,5 +24,5 @@ The Digital Clock is a web application built using HTML, CSS, and JavaScript. It
    ```
 ### Live Website
    ```bash
-   https://6760690055e2e42565fa1794--vocal-babka-fea52d.netlify.app/
+   https://java-script-projects-digital-clock.vercel.app/
    ```
