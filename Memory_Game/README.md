@@ -28,5 +28,5 @@ The Memory Game is a responsive web application built using HTML, CSS, and JavaS
    ```
 ### Live Website
    ```bash
-   https://6760664b741b442cf7713cfd--shiny-cuchufli-e50f17.netlify.app/
+   https://java-script-projects-memory-game.vercel.app/
    ```
