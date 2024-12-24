@@ -28,5 +28,5 @@ The Tic Tac Toe Game is a web application built using HTML, CSS, and JavaScript.
    ```
 ### Live Website
    ```bash
-   https://676069ff249fcb271933830e--aesthetic-paprenjak-cc383a.netlify.app/
+   https://java-script-projects-tic-tac-toe.vercel.app/
    ```
